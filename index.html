@@ -3,5 +3,35 @@
 <head>
     <title>Mart's Giphhy API</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
+<body>
+    <div>
+        <h1 class= "text-center" >Toon gif generator</h1>
+    </div>
+
+<!-- button zone  -->
+<div class= "text-center" id="gif-button-zone">
+</div>
+ <!-- main zone  -->
+<div >
+    <div >
+        
+    </div>
+     <!-- User input form  -->
+        <form class= "text-center" id="user-input-zone" role="form">
+            <div class="input-form">
+                <label for="user-input">Add a toon of your own below!</label>
+                <input type="text" id="user-input">
+            </div>
+            <input id="addGif" type="submit" value="Add a toon" class="btn">
+            <input id="removeGif" type="submit" value="Remove last toon" class="btn">
+        </form>    
+        <!-- gif display zone  -->
+        <div id="gif-display-zone"></div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src= "assets/logic.js"></script>
+  
+</body>

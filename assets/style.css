@@ -1,0 +1,16 @@
+.displayDiv{
+    float: left;
+    margin: 20px;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.toon {
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+}
